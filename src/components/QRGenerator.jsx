@@ -30,9 +30,9 @@ function QRGenerator() {
           className=" w-72 h-10 rounded-md p-4 border-2 focus:outline-none focus:ring-2 focus:ring-gray-500"
         />
         <Button disabled={!input.trim()} onClick={handleGenerateQRCode}
-          className=" disabled:opacity-50 w-full h-10 sm:w-40 sm:h-10"
+          className=" disabled:opacity-50 w-full h-10 sm:w-30 sm:h-10"
         >Generate</Button>
-        <Button onClick={handleRefresh} className=" bg-red-700 w-full h-10 sm:w-40 sm:h-10 hover:bg-red-800" >Refresh</Button>
+        <Button onClick={handleRefresh} className=" bg-red-700 w-full h-10 sm:w-30 sm:h-10 hover:bg-red-800" >Refresh</Button>
       </div>
 
       {
